@@ -18,9 +18,11 @@ You can find the dataset and its description on Kaggle: https://www.kaggle.com/d
 
 1. ### Data preprocessing:
 
-   The dataset underwent preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features. Additionally, considering the imbalanced nature of the dataset, techniques such as oversampling (e.g., SMOTE) were applied to address class imbalance.
+   The dataset underwent preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features. However, one significant challenge encountered was the imbalanced nature of the dataset, where the classes were disproportionately represented. To address this issue, various techniques were explored, including SMOTE, ADASYN, SMOTEtomek, and SMOTEENN, each designed to mitigate class imbalance. After thorough experimentation with these methods, including assessing their impact on model performance, SMOTE was ultimately chosen for addressing class imbalance. Although the performance of different techniques was comparable, SMOTE was selected primarily for its simplicity and ease of implementation. Additionally, this decision was motivated by the desire to gain insights into different balancing methods and their effects on model training, rather than solely focusing on maximizing predictive accuracy.
 
-2. ### Model Development:
+
+
+3. ### Model Development:
    Logistic regression, a commonly used classification algorithm, was employed to build the predictive model. Special attention was given to hyperparameter tuning and model evaluation considering the imbalanced nature of the dataset.
 
 1. ### Model Evaluation:
