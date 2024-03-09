@@ -13,3 +13,10 @@ You can access the dataset on Kaggle via the following link: https://www.kaggle.
 ## Exploratory Data Analysis
 
 The knowledge gain from this part was the **Univariate** and **Bivariate** analysis. I studied each distribution of the individual categoricals, and then the relationships between the target and the categoricals.
+
+## Data preprocessing
+
+I noticed, that the Na_to_K feature, which is the sodium to potassium ratio in blood, is skewed. A little bit unsymmetric. So I used log-transformation on it.
+
+The target variable if also skewed, drug-Y occurs more than the other drugs, so to address this issue, I used SMOTE, which is an oversampling in the minority class. This ensures the correct predictions.
+
