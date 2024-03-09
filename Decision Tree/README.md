@@ -9,3 +9,7 @@ The Drug 200 dataset, available on Kaggle, is our focus. It contains basic infor
 Each entry in the dataset includes details like age, sex, blood pressure, cholesterol levels, and serum concentrations of sodium and potassium. The main thing we're trying to predict is which drug type would be most effective for a particular patient based on these characteristics.
 
 You can access the dataset on Kaggle via the following link: https://www.kaggle.com/datasets/pablomgomez21/drugs-a-b-c-x-y-for-decision-trees/data
+
+## Exploratory Data Analysis
+
+The knowledge gain from this part was the **Univariate** and **Bivariate** analysis. I studied each distribution of the individual categoricals, and then the relationships between the target and the categoricals.
